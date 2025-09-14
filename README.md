@@ -14,19 +14,15 @@ Number Base Conversion Utility
     - the number left-shifted by 3
     - the number ANDed with 0xFF
 - **a1_test_file.txt** – Provided test file with all test cases.
+- **Makefile** – Automates building the project.
 
-## Build Instructions
+---
 
-### Option 1: Using gcc directly
-Run the following command in bash (Linux/macOS/Codespaces):
+## Build & Run Instructions
+
+To build and run the project, you can use either **gcc directly**, **the Makefile**, or run the executable on **Windows**:
+
+### Bash (Linux/macOS/Codespaces)
+Build with gcc:
 ```bash
 gcc -std=c17 -Wall -Wextra -O2 convert.c main.c -o assignment1
-
-**### Option 2: Using Makefile**
-```bash
-make
-./assignment1
-
-**### Option 3: Powershell or CommandPrompt**
-Run the following command:
-assignment1.exe
