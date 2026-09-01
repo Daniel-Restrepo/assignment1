@@ -1,7 +1,3 @@
-# assignment1
-This is my feeble attempt on completing this (late) :')
-
-# CS 3503 – Assignment 1  
 Number Base Conversion Utility
 
 ## Files
